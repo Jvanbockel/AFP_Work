@@ -16,11 +16,7 @@ for x in rainFall:
 for i in range(len(rainFall)):
     len = int(rainFall[i])
 
-sum = 0
-for x in rainFall:
-    sum += int(x)
-
-average = sum / len
+average = total / len
 print("The average rainfall is: ",round(average,2))
 print("The total rainfall is: ",total)
 
